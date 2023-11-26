@@ -4,7 +4,7 @@
 
 This comprehensive project focuses on predicting the Air Quality Index (AQI) by leveraging meteorological parameters. The dataset spans the years 2013 to 2016, offering a rich and diverse collection of atmospheric conditions and air quality data. The primary goal is to develop robust predictive models that can accurately forecast PM 2.5 levels based on various meteorological features.
 
-![image](https://github.com/mukul-bhele/airqualityindex/blob/0cd1a03e67b7ccf6526b4251a3b73bc4b091ab7f/AQI%20(Image).jpg)
+![image](https://github.com/mukul-bhele/airqualityindex/blob/4bbbd30c47d8292a65db9c7609f91aa9b1d9b73d/images_large_10.1177_20539517221101346-fig1.jpeg)
 ## Dataset
 
 ### Temporal Coverage
