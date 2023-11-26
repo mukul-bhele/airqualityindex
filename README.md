@@ -31,7 +31,8 @@ The dataset undergoes rigorous cleaning procedures to ensure data integrity. Mis
 
 ### Data Source
 
-Meteorological data is extracted from HTML files, providing a structured and reliable source. AQI data is obtained from CSV files, ensuring consistency and accuracy in air quality measurements.
+Meteorological data is extracted from HTML files, providing a structured and reliable source. AQI data is obtained from CSV files, ensuring consistency and accuracy in air quality measurements.\
+Website : https://en.tutiempo.net/
 
 ## Models
 
@@ -52,4 +53,6 @@ Before model development, the dataset undergoes preprocessing steps to ensure it
 
 Various metrics, including Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE), are employed to assess the accuracy and performance of the predictive models. This thorough evaluation process helps identify the strengths and limitations of each model.
 
+## Conclusion
+This Air Quality Index (AQI) prediction project is a comprehensive exploration into forecasting PM 2.5 levels based on meteorological parameters spanning the years 2013 to 2016. By employing a variety of regression and machine learning models, including Linear Regression, Lasso Regression, Ridge Regression, Random Forest, XGBoost, and Artificial Neural Network (ANN), the project aims to provide accurate and robust predictions.
 Feel free to contribute, raise issues, or provide feedback to enhance this project!
