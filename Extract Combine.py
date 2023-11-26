@@ -1,3 +1,17 @@
+'''
+This Python script collects meteorological data and PM2.5 levels for the years 2013 to 2016 from HTML files,
+processes the data, and combines it into a CSV file named "Real_Combine.csv." The meteorological data includes
+temperature (T, TM, Tm), sea-level pressure (SLP), humidity (H), visibility (VV), wind speed (V), and maximum
+wind speed (VM). The PM2.5 levels are obtained using the functions avg_data_2013, avg_data_2014, avg_data_2015,
+and avg_data_2016.
+
+The script uses BeautifulSoup to parse HTML files and extracts relevant meteorological data. It then combines this
+data with PM2.5 levels and writes the information to CSV files for each year. Finally, it reads these individual
+CSV files and combines the data into a single CSV file, "Real_Combine.csv," using the Pandas library.
+
+To summarize, this script is designed to collect, process, and combine meteorological and PM2.5 data for the
+years 2013 to 2016 into a consolidated CSV file for further analysis.
+'''
 from Plot_AQI import avg_data_2013,avg_data_2014,avg_data_2015,avg_data_2016
 import requests
 import sys

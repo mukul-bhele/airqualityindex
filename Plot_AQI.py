@@ -1,3 +1,15 @@
+'''
+The provided Python script reads Air Quality Index (AQI) data from separate CSV files for the years 2013 to 2018.
+For each year, the script calculates the average PM2.5 concentration for every 24 hours of the day. It handles
+different data types and excludes certain non-numeric values like 'NoData,' 'PwrFail,' '---,' and 'InVld' during
+the averaging process. The resulting average PM2.5 values for each day are stored in separate lists for each year.
+
+In the main block, the script calls the functions for each year to obtain the average PM2.5 values. Subsequently,
+it plots a line graph showing the trend of PM2.5 concentrations over the course of the year for the years 2013 to 
+2018. Each year is represented by a different line, and the x-axis represents days while the y-axis represents PM2.5
+concentrations. The legend indicates the corresponding year for each line, providing a visual comparison of PM2.5
+levels over the specified period.
+'''
 import pandas as pd
 import matplotlib.pyplot as plt
 
